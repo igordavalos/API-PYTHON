@@ -29,7 +29,7 @@ def create(event, context):
     # write the todo to the database
     table.put_item(Item=item)
 
-    # create a response for create method
+    # create a response
     response = {
         "statusCode": 200,
         "body": json.dumps(item)
