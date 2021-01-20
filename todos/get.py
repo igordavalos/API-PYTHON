@@ -16,7 +16,11 @@ def get(event, context):
         }
     )
 
+<<<<<<< HEAD
     # create a response for get method
+=======
+    # create a response for get method in new-feature-one
+>>>>>>> 94b70924803d969c63bb8f08341bcb8d8c13a461
     response = {
         "statusCode": 200,
         "body": json.dumps(result['Item'],
