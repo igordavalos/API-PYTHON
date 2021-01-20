@@ -38,7 +38,7 @@ def update(event, context):
         ReturnValues='ALL_NEW',
     )
 
-    # create a response
+    # create a response for update method
     response = {
         "statusCode": 200,
         "body": json.dumps(result['Attributes'],
