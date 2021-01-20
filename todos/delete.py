@@ -14,7 +14,7 @@ def delete(event, context):
         }
     )
 
-    # create a response
+    # create a response for delete method
     response = {
         "statusCode": 200
     }
