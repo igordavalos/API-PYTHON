@@ -1,6 +1,6 @@
 org: unirigor
 app: todo-list-serverless
-service: serverless-rest-api
+service: serverless-api
 
 frameworkVersion: ">=1.1.0"
 
